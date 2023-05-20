@@ -24,13 +24,13 @@ sudo chmod +x <filename>
 
 Run by using: `./filename.sh`
 
-logs.sh looks at the log file and prints it to the terminal using `less`. 
+logs.sh looks at the log file and prints it to the terminal using `less`. Exit with `q`
 ```shell
 #! /bin/sh
 less ping/Logs.txt
 ```
 
-tlog.sh automatically updates the log in real time. 
+tlog.sh automatically updates the log in real time. Exit with `ctrl + c`
 ```shell
 #! /bin/sh
 tail -f ping/Logs.txt
